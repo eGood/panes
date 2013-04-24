@@ -1,6 +1,6 @@
 # Panes
 
-a panes swiping interface testing and documentation coming soon!
+Panes is a swiping interface... testing and documentation coming soon!
 
 Depedencies
 
