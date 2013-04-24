@@ -1,3 +1,7 @@
 # Panes
 
-a panes swiping interface
+a panes swiping interface testing and documentation coming soon!
+
+Depedencies
+
+- jQuery
