@@ -2,7 +2,17 @@
 
 Panes is a swiping interface... testing and documentation coming soon!
 
-Depedencies
+### Use it
+	
+```
+var panes = new Panes($('.slider'), [direction]);
+```
+
+##### options
+
+direction ~ String | 'horizontal' or anything else will make vertical 
+
+### Depedencies
 
 - jQuery
 - Node.js
@@ -27,3 +37,4 @@ grunt
 grunt minify
 grunt build
 ```
+
