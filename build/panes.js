@@ -1,5 +1,5 @@
 /*
- * Panes.js - 0.0.1 
+ * Panes.js - 0.0.2-4 
  * Author : Jacob Lowe <http://jacoblowe.me> 
  */
 
@@ -13,7 +13,7 @@
     this.locked = null;
     this.current = 1;
     this.position = 0;
-    this.direction = (direction === "horizontal") ? 1 : 0 ;
+    this.direction = (direction === "vertical") ? 0 : 1 ;
     this.ele = ele;
     this.els = ele.find("> *");
     this.top = (this.direction) ? ele.position().left : ele.position().top;
