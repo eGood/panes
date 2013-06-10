@@ -8,7 +8,7 @@
     this.locked = null;
     this.current = 1;
     this.position = 0;
-    this.direction = (direction === "horizontal") ? 1 : 0 ;
+    this.direction = (direction === "vertical") ? 0 : 1 ;
     this.ele = ele;
     this.els = ele.find("> *");
     this.top = (this.direction) ? ele.position().left : ele.position().top;
